@@ -1,4 +1,4 @@
-You can find my code below:
+##You can find my code below:
 
 
 ##Part 1 
@@ -19,7 +19,6 @@ a <- makeCacheMatrix(matrix(c(4,3,3,2), nrow=2, ncol=2))
 
 
 ##Part 2 
-
 cacheSolve <- function(x, ...) {
         m <- x$getInverse()
         if(!is.null(m)) {
